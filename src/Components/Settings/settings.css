@@ -1,0 +1,34 @@
+.settings_main{
+    background-color: #f8f8f8;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 3rem;
+
+}
+.settings_left_cont{
+    width: 30%;
+    margin-right: 2%;
+}
+.settings_right_cont{
+    width: 63%;
+}
+.setting_tab_btns{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid lightgray !important;
+    padding: 0;
+    height: 3rem;
+    color: gray
+}
+.setting_icon_cont{
+    width: 13%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid lightgray;
+    height: 100%;
+}
+.setting_title_cont{
+  margin-left: 5%;
+}

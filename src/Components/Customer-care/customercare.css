@@ -1,0 +1,269 @@
+.main_cont_customercare{
+    background-color: #F8F8F8;
+    padding: 3rem 4rem;
+    display: flex;
+    justify-content: center;
+}
+.parent_cont_customercare{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.customercare_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FD7080;
+    margin: 2rem 0rem;
+}
+.c_care_topics_cont{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 2rem;
+    flex-wrap: wrap;
+}
+.c_care_accordion{
+    width: 47%;
+    margin-bottom: 2rem;
+}
+.c_care_acc_header{
+    color: #FD7080
+}
+.c_care_acc_header button{
+    background-color: #e7e7e7 !important;
+    color: #FD7080 !important;
+}
+.c-care_acc_icons{
+    margin-right: .5rem;
+    color: rgb(83, 83, 83);
+    font-size: 20px;
+}
+.c_care_contact_cont{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact_us_card{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 3rem 1rem;
+    width: 30%;
+    height: 29rem;
+    max-height: 29rem;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+.contact_us_card_title{
+    color: #FD7080;
+}
+.contact_us_card_links{
+    text-decoration: none;
+    color: #FD7080;
+}
+.contact_us_card_subtitle{
+    font-size: 12px;
+    color:rgb(83, 83, 83);
+    font-weight: bold;
+}
+.para_contact_us_card{
+    font-size: 13px;
+    margin: 1rem;
+    text-align: justify;
+    text-overflow: wrap;
+    overflow-y: scroll;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.card_inner_links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact_us_chat_card{
+    display: flex;
+    align-items: center;
+    width: 30%;
+    height: 29rem;
+    max-height: 29rem;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+.chat_card_header{
+    background-color: #FD7080;
+    height: 4rem;
+    color: #ffff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.chat_msgs_cont{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem .5rem;
+    position: relative;
+    max-height: 20rem;
+    overflow-y: scroll;
+}
+.msg_div1{
+    padding: 1rem .3rem .2rem .3rem;
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    border-radius: 5px;
+    background-color: lightgray;
+    color: black;
+    font-size: .8rem;
+    position: relative;
+    margin-top: 1rem;
+}
+.text_msg{
+    margin-bottom: 1.5rem;
+}
+.time_div{
+   margin-left: 70%;
+}
+.msg_div2{
+    padding: 1rem .3rem .2rem .3rem;
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    border-radius: 5px;
+    background-color: #FD7080;
+    color: #fff;
+    font-size: .8rem;
+    position: relative; 
+    margin-top: 1rem;
+    margin-left: 35%;
+}
+.main_cont_customercare_detail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8F8F8;
+    flex-direction: column;
+}
+.background_image_cont{
+    width: 100%;
+    height: 25rem;
+    background-image: url('../../assets/IMAGES/shaadi.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.cutomer_care_search_cont{
+    width: 35rem;
+    color: #ffff;
+    border-radius: 2rem;
+    background-color: #F8F8F8;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search_help_title{
+    color: #fff;
+    margin-bottom: 2rem;
+}
+.customercare_serach_field{
+   margin-left: 1rem;
+   width: 85%;
+   border: none;
+   background: transparent;
+}
+.customercare_serach_field:focus{
+    outline: none;
+}
+.search_icon{
+    color: #FD7080 !important;
+    cursor: pointer;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+.customercare_detail_backbtn_row{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 2rem;
+    width: 100%;
+}
+.customercare_detail_backbtn{
+    background-color: #FD7080;
+    color: #ffff;
+    border-color: #FD7080;
+}
+.customercare_detail_card{
+   margin: 1rem;
+   margin-top: 4rem;
+   width: 97%;
+   padding: 1rem;
+   padding-bottom: 3rem;
+}
+.customercare_main_help{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.customercare_detail_title_row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    margin: 2rem 0rem;
+    color:#FD7080;
+}
+.title_div{
+    min-width: 25%;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FD7080;
+    border: .5px solid #FD7080;
+    border-radius: 5px;
+    font-size: 2rem;
+}
+.customercare_main_help{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.help_title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.helping_points{
+    margin-top: 2rem;
+    color:gray;
+}
+.helping_point_numbers{
+    height: 2rem;
+}
+.btn_edit_help_row{
+    width: 65%;
+}
+.edit_help_btn{
+    width: 100%;
+    background-color: #FD7080;
+    color: #fff;
+    border-color: #FD7080;
+    border-radius: 10px;
+}

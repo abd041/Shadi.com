@@ -1,0 +1,80 @@
+.main_cont{
+    background-color: #F8F8F8;
+    padding: 3rem 4rem;
+    display: flex;
+    justify-content: center;
+}
+.parent_cont{
+    width: 97%;
+    background-color: transparent
+}
+
+.pref_tabs_btn_div{
+    width: 28vw;
+    background: #ffff;
+    height: auto;
+    min-height: 60vh;
+    padding: 5% 1% 10% 1%;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    border-radius: 10px;
+}
+.tab_btn{
+    border-radius: 10px !important;
+    margin-bottom: 10% !important;
+    background: #f9f9f9 !important;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 0px 18px;
+}
+.tabs_btn_text{
+    margin-left: 8%;
+}
+.pref_tabs_btn_div .active{
+    background-color: #ff6295 !important;
+    color: #ffff !important;
+}
+.setting_card1{
+    width: 54vw;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    padding: 20px;
+}
+.header_text{
+    font-weight: 500;
+    line-height: 2;
+}
+.input_select_options{
+    border-radius: 30px;
+}
+.labels{
+    font-size: 15px;
+}
+.location_details{
+    background-color: #e7e7e7;
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 25px;
+    margin-bottom: 2rem;
+}
+.dropDowns_cont{
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-top: 1rem;
+
+}
+.checkbox_cont{
+    display: flex;
+    margin-left: auto;
+    margin-top: .5rem;
+}
+.income_dropdown{
+    border-radius: 25px;
+}
+.checkboxes_container{
+    display: flex;
+    align-items: center;
+}
+.label_checkbox{
+    font-size: 13px;
+}

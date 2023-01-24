@@ -1,0 +1,184 @@
+.matchviewbox_detailed_profile {
+  display: flex;
+  flex-wrap: wrap;
+}
+.matchviewbox_detailed_profile_box_wrapper {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  margin-bottom: 8px;
+  width: 50%;
+}
+.matchviewbox_detailed_profile_box {
+  background-color: #fff;
+  border-radius: 20px;
+  min-height: 300px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px -1px 1px, rgba(0, 0, 0, 0.07) 0px 4px 4px,
+    rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px,
+    rgba(0, 0, 0, 0.07) 0px 12px 12px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.matchviewbox_detailed_profile_box_header {
+  display: flex;
+  justify-content: center;
+  padding: 15px 5px;
+  position: relative;
+}
+.matchviewbox_detailed_profile_box_header::after {
+  content: "";
+  background-color: lightgray;
+  position: absolute;
+  bottom: 0;
+  left: 8%;
+  right: 8%;
+  height: 0.5px;
+}
+
+.matchviewbox_detailed_profile_box_body {
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.matchviewbox_detailed_profile_box_header .pb_title_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.matchviewbox_detailed_profile_box_header .pb_title_box .pb_icon_box {
+  margin-right: 8px;
+  background-color: var(--color-secondary-light);
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px -1px 1px, rgba(0, 0, 0, 0.07) 0px 4px 4px,
+    rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px,
+    rgba(0, 0, 0, 0.07) 0px 12px 12px;
+}
+.matchviewbox_detailed_profile_box_header .pb_title_box .pb_icon_box .pb_icon {
+  font-size: 40px !important;
+  color: #fff !important;
+}
+.matchviewbox_detailed_profile_box_header .pb_title_box .pb_title {
+  margin-bottom: 0;
+  color: var(--text-color);
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+
+.matchviewbox_detailed_profile_box_about_box .about_text {
+  color: var(--text-color-dark);
+  text-align: justify;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4; /* number of lines to show */
+  line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+
+.matchviewbox_detailed_profile_box_body_contact_box .pb_contact_box {
+  display: flex;
+  flex-wrap: wrap;
+}
+.matchviewbox_detailed_profile_box_body_contact_box
+  .pb_contact_box
+  .info_box_wrapper {
+  width: 50%;
+  padding: 5px;
+  display: flex;
+}
+.matchviewbox_detailed_profile_box_body_contact_box
+  .pb_contact_box
+  .info_box_wrapper
+  .icon_box {
+  margin-right: 3px;
+}
+.matchviewbox_detailed_profile_box_body_contact_box
+  .pb_contact_box
+  .info_box_wrapper
+  .info_box_wrap
+  .info_box_title {
+  color: var(--text-color);
+  font-weight: 500;
+  line-height: 1rem;
+  margin-top: 4px;
+}
+.matchviewbox_detailed_profile_box_body_contact_box
+  .pb_contact_box
+  .info_box_wrapper
+  .info_box_wrap
+  .info_box_detail {
+  color: var(--text-color);
+}
+.matchviewbox_detailed_profile_box_body_contact_box
+  .pb_contact_box
+  .info_box_wrapper
+  .icon_box
+  svg {
+  color: var(--color-secondary-light) !important;
+}
+
+.matchviewbox_detailed_profile_box_body_contact_box {
+  height: 215px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.matchviewbox_detailed_profile_box_body_contact_box .upgrade_option_wrap {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+.matchviewbox_detailed_profile_box_body_contact_box
+  .upgrade_option_wrap
+  .upgrade_btn {
+  color: var(--color-secondary-light);
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+.matchviewbox_detailed_profile_box_body_contact_box
+  .upgrade_option_wrap
+  .upgrade_link {
+  color: var(--text-color-dark);
+  font-size: 15px;
+}
+
+@media (max-width: 1199.98px) {
+  .matchviewbox_detailed_profile_box_body_contact_box
+    .pb_contact_box
+    .info_box_wrapper {
+    width: 100%;
+  }
+}
+
+@media (max-width: 991.98px) {
+}
+
+@media (max-width: 767.98px) {
+  .matchviewbox_detailed_profile_box_wrapper {
+    width: 100%;
+  }
+  .matchviewbox_detailed_profile_box_body_contact_box
+  .pb_contact_box
+  .info_box_wrapper {
+  width: 50%;
+}
+}
+
+@media (max-width: 575.98px) {
+  .matchviewbox_detailed_profile_box_body_contact_box
+  .pb_contact_box
+  .info_box_wrapper {
+  width: 100%;
+}
+}

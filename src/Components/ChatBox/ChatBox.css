@@ -1,0 +1,41 @@
+
+.chat_box {
+    position: fixed;
+    bottom: 86px;
+    left: 10px;
+    border: 1px solid gray;
+    z-index: 99;
+    width: 16%;
+    /* width: 240px; */
+    background-color: #FFF;
+    transition: all 2s ease-in-out;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.chat_box_header {
+    text-align: center;
+    /* background-color: #FFF; */
+    background-color: var(--color-secondary);
+    color: #FFF;
+    font-weight: 600;
+    padding: 0.5rem 0.75rem;
+    border-bottom: 1px solid gray;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.chat_box_header:hover {
+    cursor: pointer;
+}
+
+
+@media (max-width: 1199.98px) {
+}
+
+@media (max-width: 991.98px) {
+}
+
+@media (max-width: 767.98px) {
+}
+
+@media (max-width: 575.98px) {
+}
